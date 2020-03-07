@@ -358,7 +358,7 @@ if ( empty( $_SESSION['STAFF_ID'] )
 
 	PopTable(
 		'header',
-		sprintf( _( '%s Login' ), Config( 'NAME' ) )
+		sprintf( _( 'OK Solutions Login' ), Config( 'NAME' ) )
 	);
 
 	if ( isset( $_REQUEST['reason'] ) )
